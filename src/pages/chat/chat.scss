@@ -1,0 +1,54 @@
+.ios,
+.md {
+    page-chat {
+        ion-header { 
+            ion-navbar { 
+                .toolbar-background { 
+                    // background-color:  lightblue;
+                }
+            }
+        }
+        ion-content {
+            background: url('http://bolderlines.com/wp-content/uploads/2015/06/circlepatter.png');
+            background-size: 100% auto;
+            ion-card {
+                box-shadow: none;
+                background: none; // &:nth-child(odd) { 
+                //    text-align: left;
+                // }
+                // &:nth-child(even) { 
+                //     text-align: right;
+                // }
+                ion-card-content {
+                    padding: 10px 20px;
+                    background-color: #fff170;
+                    border-radius: 50px;
+                    p {
+                        font-size: 1.5rem;
+                    }
+                }
+                ion-note {
+                    float: right;
+                    color: gray;
+                    padding: 10px;
+                    font-style: italic;
+                }
+            }
+        }
+        ion-footer {
+            padding: 0 15px 20px 10px;
+            bottom: -18px;
+            border-top: 2px solid #ffffff;
+            ion-item {
+                background: transparent;
+                button {
+                    background-color: lightgreen;
+                    text-transform: uppercase;
+                    &.item-button {
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
